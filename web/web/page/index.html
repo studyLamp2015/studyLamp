@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Index</title>
+<link href="/css/public.css" rel="stylesheet" type="text/css"></link>
+<link href="/css/index.css" rel="stylesheet" type="text/css"></link>
+
+<script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+<script src="/js/plugin/sea.js"></script>
+<script src="/js/config.js"></script>
+</head>
+<body>
+<!-- 头部，内部两个字元素固定高度，撑开父元素 -->
+<div class="header">
+  <div class="am-header-inner">
+    <div class="topNav">
+      <div class="laymid">
+        <ul class="fl">
+          <li><a href="#">左边菜单1</a></li>
+          <li><a href="#">左边菜单2</a></li>
+        </ul>
+        <ul class="fr rlink">
+          <li><a href="#">右边菜单1</a></li>
+          <li><span>|</span></li>
+          <li><a href="#">右边菜单2</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mainNav"></div>
+  </div>
+</div>
+<!-- 正文部分，实际上叠加了好几个部分，当要显示的时候，隐藏上面的部分就好 -->
+<div class="am-body">
+
+</div>
+
+</body>
+<script>
+seajs.use('index');
+</script>
+</html>

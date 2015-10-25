@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+.header{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+.header .am-header-inner{
+  position: relative;
+  z-index: 2;
+}
+
+.topNav{
+  height: 28px;
+  line-height: 28px;
+}
+.mainNav{
+  height: 80px;
+}
+.topNav, .topNav a, .topNav span{
+  color: #fff;
+  font-size: 12px;
+}
+.header .topNav .laymid, .topNav{
+  background-color: #1e1b29;
+}
+.laymid{
+  width: 100%;
+}
+.topNav li {
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+}
+.topNav li:first-child {
+    margin-left: 0;
+}
+.topNav .rlink li{
+  margin: 0 5px;
+}
